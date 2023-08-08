@@ -1,0 +1,151 @@
+.title1{
+    text-align: center;
+}
+
+.gradient{
+    width: 70%;
+    margin: auto;
+}
+
+.title2{
+    margin: auto;
+    text-align: center;
+    font-size: 110px;
+    margin-bottom: 15px;
+    background-image: linear-gradient(90deg,#3a3d5e, #9fc8fc);
+    background-clip: text;    
+    /* background-size: ; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+
+@media screen and (max-width: 768px) {
+    .title2{
+        font-size: 80px;
+    }
+    .title1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .title2{
+        font-size: 50px;
+    }
+    .title1{
+        font-size: 15px;
+    }
+    .title3{
+        font-size: 15px;
+    }
+}
+
+
+
+#headerimage {
+/* background-image: url(./images/home-kitchen3.png); */
+background-size: cover;
+}
+
+.title3{
+    max-lines: 1;
+    text-align: center;
+    font-weight: 300;
+    font-size: 19px;
+    letter-spacing: .05em;
+} 
+
+.button2 {
+    padding: 9px 25px;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease .3s;
+    outline: none;
+}
+
+.button2:hover {
+    background-color: #1C60E871;
+}
+
+
+.cta{
+    text-align: center;
+}
+
+.block-cta{
+    margin-top: 15px;
+}
+
+.service-containers{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.block-title{
+    margin: 20px 20px 0px 20px;
+    font-family: europa, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.block{
+    height: 390px;
+    width: 270px;
+    margin: 50px;
+    border-radius: 40px;
+    display: inline;
+    box-shadow: -2px 2px 10px #000000bd;
+    transition: .2s;
+    background-color: var(--neu-8);
+}
+
+.block:hover{
+    box-shadow: -2px 2px 10px var(--neu-8);
+}
+
+.block-image{
+width: 100%;
+border-radius: 40px 40px 0px 0px;
+}
+
+.image-test{
+    width: 400px;
+    display: block;
+    border-radius: 0px 10px 50px 100px;
+}
+
+.block-desc{
+    margin: 10px 20px ;
+    font-family: europa, sans-serif;
+font-weight: 300;
+font-size: 11pt;
+font-style: normal;
+}
+
+.grad-btn{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 10pt;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    padding: 8px 12px;
+    transition: ease .3s;
+    border: none;
+    box-shadow: 0px 0 5px 0px #1C60E8
+}
+
+.grad-btn:hover{
+    box-shadow: 0px 0px 15px 0px var(--main-color);
+    transform: translateY(-3px);
+}
+
+.button{
+    color: var(--main-color);
+}

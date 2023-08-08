@@ -1,0 +1,1 @@
+I appreciate your patience, I wasn't able to get to the computer till late but here is the application link, https://application.dvapply.com/Agent/84/KateConyers/d9c0bbef-fa23-48e2-9263-30b88cd54ad3, you will have to complete your portion then add your co-signer by adding their email adress. The co-signer will get an email to complte their portion of the application.
